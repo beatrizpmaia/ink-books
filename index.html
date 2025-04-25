@@ -1,66 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ink-books</title>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ink-books</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <!-- Barra de Navegação -->
-     <nav class="w3-container">
-        <div class="logo"><b>Ink-Boock</b></div>
-    
-        <div class="nav-link">
-            <a href="...">[Início]</a>
-            <a href="...">[Promoções]</a>
-            <a href="...">[Melhores Avaliados]</a>
-        </div>
+  <!-- Barra de Navegação -->
+  <nav class="w3-container">
+    <div class="logo"><b>Ink-Boock</b></div>
 
-        <div>
-            <i class="bi bi-search-heart" style="margin-right: 10px; font-size: 20px;"></i>
-            <i class="bi bi-cart3"  style=" font-size: 20px;"></i>            
-        </div>
-        
+    <div class="nav-link">
+      <a href="...">[Início]</a>
+      <a href="...">[Promoções]</a>
+      <a href="...">[Melhores Avaliados]</a>
+    </div>
 
-
-
-     </nav>
-
-    <!-- Banner Principal -->
-
-    <div style="background-color: rgb(228, 235, 217);">
-
-        <div class="container text-center">
-            <div class="row align-items-start">
-              <div class="col">
-                <h2>✨ Bem-vindo à Ink-Books! ✨</h2>
-                <p style="font-size: 20px; color: rgb(33, 52, 57);">Na Ink-Books, acreditamos que cada livro é uma porta para novos mundos. Aqui, você encontra os melhores títulos, desde <b> clássicos atemporais até os lançamentos mais aguardados </b>, tudo com a facilidade de comprar online e receber no conforto da sua casa.</p>
-                
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                    <button class="btn me-md-2" type="button" style= "background-color:rgb(33, 52, 57); color: aliceblue;">Literatura Clássica</button>
-                    <button type="button" class="btn active" data-bs-toggle="button" aria-pressed="true">Outros Livros</button>
-                    
-                  </div>
-                  
-            </div>
-              <div class="col">
-                <img src="img/todo-lider-precisar-ser-bom-leitor.jpg" alt="img">
-              </div>
-            </div>
-          </div>
-
-          
-
+    <div>
+      <i class="bi bi-search-heart" style="margin-right: 10px; font-size: 20px;"></i>
+      <i class="bi bi-cart3" style=" font-size: 20px;"></i>
     </div>
 
 
 
 
+  </nav>
+
+  <!-- Banner Principal -->
+
+  <div style="background-color: rgb(228, 235, 217);">
+
+    <div class="container text-center">
+      <div class="row align-items-start">
+        <div class="col">
+          <h2>✨ Bem-vindo à Ink-Books!✨</h2>
+          <p style="font-size: 20px; color: rgb(33, 52, 57);">Na Ink-Books, acreditamos que cada livro é uma porta para
+            novos mundos. Aqui, você encontra os melhores títulos, desde <b> clássicos atemporais até os lançamentos
+              mais aguardados </b>, tudo com a facilidade de comprar online e receber no conforto da sua casa.</p>
+
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn me-md-2" type="button"
+              style="background-color:rgb(33, 52, 57); color: aliceblue;">Literatura Clássica</button>
+            <button type="button" class="btn active" data-bs-toggle="button" aria-pressed="true">Outros Livros</button>
+
+          </div>
+
+        </div>
+        <div class="col">
+          <img src="img/todo-lider-precisar-ser-bom-leitor.jpg" alt="img"
+            style="width: 400px; height: auto; border-radius: 0 0 70px 70px; margin-bottom: 20px;">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section -->
+
+  <section>
+    <div class="container text-center" style="margin-top: 20px;">
+      <div class="row align-items-start">
+        <div class="col">
+          <p style="font-size: 25px;">Variedade que inspira</p>
+          <img src="img/book-stack_3389066.png" alt="livros" style="width: 50px; height: auto;">
+          <p>Romance, ficção, negócios, infantis e muito mais.</p>
+
+        </div>
+        <div class="col">
+          <p style="font-size: 25px;">Entrega rápida</p>
+          <img src="img/startup_473161.png" alt="foguete" style="width: 50px; height: auto;">
+          <p>Seu próximo livro favorito está a apenas um clique de distância.</p>
+        </div>
+        <div class="col">
+          <p style="font-size: 25px;">Feito por quem ama ler</p>
+          <img src="img/love_1029132.png" alt="coração" style="width: 50px; height: auto;">
+          <p>Simples, prática e dedicada a espalhar o amor pela leitura.</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </section>
+
+  <!-- Section livros em alta-->
+  <section>
+    <div class="container text-center py-4">
+      <h2 style="font-size: 30px;">Livros em Alta</h2>
+      <p style="font-size: 15px; color: rgb(33, 52, 57);">Explore, descubra e mergulhe em novas histórias. A Ink-Books
+        está aqui para transformar páginas em experiências.</p>
+    </div>
+
+
+    <div class="container">
+      <div class="row row-cols-md-1 row-cols-md-3 g-4">
+        <div class="card mb-3" style="max-width: 400px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://m.media-amazon.com/images/I/71-YhujYUxS._SY425_.jpg" class="img-fluid rounded-start"
+                alt="A cabeça do santo">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">A Cabeça do Santo</h5>
+                <p class="card-text">por Socorro Acioli </p>
+                <p class="card-text"><small class="text-body-secondary">R$ 54,00</small></p>
+
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                  <button class="btn btn-primary me-md-2" type="button">Compre Agora</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3" style="max-width: 400px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://m.media-amazon.com/images/I/410aJ+gWW-L._SY445_SX342_.jpg"
+                class="img-fluid rounded-start" alt="Em Agosto nos Vemos">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Em Agosto nos Vemos</h5>
+                <p class="card-text">por Gabriel Garcia Márquez</p>
+                <p class="card-text"><small class="text-body-secondary">R$ 42,99</small></p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                  <button class="btn btn-primary me-md-2" type="button">Compre Agora</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3" style="max-width: 400px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://m.media-amazon.com/images/I/81p29WCHFaL._SY425_.jpg" class="img-fluid rounded-start"
+                alt="O averso da pele">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">O Avesso da Pele </h5>
+                <p class="card-text"> por Jeferson Tenório</p>
+                <p class="card-text"><small class="text-body-secondary">R$ 50,19</small></p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                  <button class="btn btn-primary me-md-2" type="button">Compre Agora</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3" style="max-width: 400px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://m.media-amazon.com/images/I/814ChnoRCFL._SY425_.jpg" class="img-fluid rounded-start"
+                alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">A Palavra que Resta</h5>
+                <p class="card-text">por Stênio Gardel</p>
+                <p class="card-text"><small class="text-body-secondary">R$ 53,99</small></p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                  <button class="btn btn-primary me-md-2" type="button">Compre Agora</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3" style="max-width: 400px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://m.media-amazon.com/images/I/311o3+q7YGL._SY445_SX342_.jpg"
+                class="img-fluid rounded-start" alt="Oração para desaparecer">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Oração para Desaparecer</h5>
+                <p class="card-text">por Socorro Acioli</p>
+                <p class="card-text"><small class="text-body-secondary">R$ 48,19</small></p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                  <button class="btn btn-primary me-md-2" type="button">Compre Agora</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3" style="max-width: 400px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://m.media-amazon.com/images/I/81wejyHlXuL._SY425_.jpg" class="img-fluid rounded-start"
+                alt="Primeiro eu tive que morrer">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Primeiro eu tive que morrer</h5>
+                <p class="card-text">por Lorena Portela</p>
+                <p class="card-text"><small class="text-body-secondary">R$ 40,59</small></p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                  <button class="btn btn-primary me-md-2" type="button">Compre Agora</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+
+
+    </div>
+
+    <hr>
+  </section>
+
+  <div style="text-align: center; margin-top: 30px;">
+    <i class="bi bi-star-fill text-warning"></i>
+    <i class="bi bi-star-fill text-warning"></i>
+    <i class="bi bi-star-fill text-warning"></i>
+  </div>
+
+  <!-- section autores em destaque -->
+
+  <div class="card" style="margin-top:30px; margin-bottom: 50px;">
+    <div class="card-body" style="text-align: center;">
+      <h5 class="card-title">Recomendação da Semana</h5>
+      <p class="card-text">Socorro Acioli é uma jornalista e escritora brasileira, e doutora em Estudos de Literatura pela Universidade Federal Fluminense.</p>
+      <p class="card-text"><small class="text-body-secondary">Prêmios: Prêmio Jabuti de Livro Infantil</small></p>
+    </div>
+    <img src="https://novabrasilfm.com.br/app/uploads/2025/03/socorro_acioli.jpeg" 
+    class="card-img-bottom" 
+    alt="autora"
+    style="width: 100%; height: 250px; object-fit: cover;">
+  </div>
+
+  <div style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
+    <i class="bi bi-star-fill text-warning"></i>
+    <i class="bi bi-star-fill text-warning"></i>
+    <i class="bi bi-star-fill text-warning"></i>
+  </div>
 
 
 
@@ -69,8 +260,10 @@
 
 
 
-
-     <!-- JS Bootstrap -->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  <!-- JS Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
